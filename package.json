@@ -1,0 +1,80 @@
+{
+    "name": "vue2me",
+    "displayName": "vue2me",
+    "description": "A vue2 vscode extension.",
+    "version": "0.0.1",
+    "publisher": "jeremaihloo",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:vue"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.scanForCssClasses",
+            "title": "Scan linked CSS files"
+        }],
+        "languages": [{
+            "id": "vue",
+            "aliases": [
+                "Vue",
+                "vue"
+            ],
+            "extensions": [
+                ".vue"
+            ],
+            "configuration": "./syntaxes/vue.configuration.json"
+        }],
+        "grammars": [{
+            "language": "vue",
+            "scopeName": "text.html.vue",
+            "path": "./syntaxes/vue.tmLanguage"
+        }],
+        "snippets": [{
+            "language": "javascript",
+            "path": "./snippets/javascript.json"
+        }, {
+            "language": "typescript",
+            "path": "./snippets/javascript.json"
+        }, {
+            "language": "html",
+            "path": "./snippets/html.json"
+        }, {
+            "language": "vue",
+            "path": "./snippets/javascript.json"
+        }, {
+            "language": "vue",
+            "path": "./snippets/vprefix.json"
+        }, {
+            "language": "vue",
+            "path": "./snippets/component.json"
+        }, {
+            "language": "vue",
+            "path": "./snippets/html.json"
+        }, {
+            "language": "vue",
+            "path": "./snippets/html-attr.json"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "dependencies": {
+		"css": "2.2.1",
+		"htmlparser2": "3.9.1"
+	},
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}

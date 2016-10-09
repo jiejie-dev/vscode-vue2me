@@ -1,0 +1,46 @@
+{
+    "template": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "\t$1",
+            "</template>"
+        ],
+        "description": "Vue element"
+    },
+    "script": {
+        "prefix": "script",
+        "body": [
+            "<script>",
+            "\t$1",
+            "</script>"
+        ],
+        "description": "Vue element"
+    },
+    "style": {
+        "prefix": "style",
+        "body": [
+            "<style>",
+            "\t$1",
+            "</style>"
+        ],
+        "description": "Vue element"
+    },
+    "vuecom": {
+        "prefix": "vuecom",
+        "body": [
+            "<template>",
+            "\t$1",
+            "</template>",
+            "\n<script>",
+            "\t$2",            
+            "\texport default {",
+            "\n\t}\n",
+            "</script>\n",
+            "\n<style>",
+            "\t$3",
+            "</style>"
+        ],
+        "description": "Vue component"
+    }
+}

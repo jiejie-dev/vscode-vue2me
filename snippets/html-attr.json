@@ -1,0 +1,37 @@
+{
+    "href": {
+        "prefix": "href",
+        "body": [
+            "href=\"${1:url}\""
+        ],
+        "description": "Expects: string"
+    },
+    "src": {
+        "prefix": "src",
+        "body": [
+            "src=\"${1:src}\""
+        ],
+        "description": "Expects: string"
+    },
+    "class": {
+        "prefix": "class",
+        "body": [
+            "class=\"${1:className}\""
+        ],
+        "description": "Expects: any"
+    },
+    "id": {
+        "prefix": "id",
+        "body": [
+            "id=\"${1:name}\""
+        ],
+        "description": "Expects: any"
+    },
+    "data-": {
+        "prefix": "data-",
+        "body": [
+            "data-$1=\"$2\""
+        ],
+        "description": "Does not expect expression"
+    }
+}
