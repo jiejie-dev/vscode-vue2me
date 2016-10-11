@@ -2,7 +2,7 @@
 
 This is the README for your extension "vue2me". After writing up a brief description, we recommend including the following sections.
 
-## Important : from other vscode extension
+## Important : manay codes come from other vscode extension or opensource project
 - [vscode-vue-snippets](https://github.com/hollowtree/vscode-vue-snippets)
 - [html-snippets](https://github.com/abusaidm/html-snippets)
 - [vscode-class-autocomplete-for-html](https://github.com/AESSoft/vscode-class-autocomplete-for-html)

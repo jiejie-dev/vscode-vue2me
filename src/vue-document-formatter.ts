@@ -9,7 +9,7 @@ const htmlbeautify = (require('js-beautify')).html;
 function format(text) {
     var newTextArr, text;
     newTextArr = [];
-    ['css', 'html', 'js'].forEach(function (val, index) {
+    ['html', 'js', 'css'].forEach(function (val, index) {
         var newText;
         newText = replaceText(text, val);
         return newTextArr.push(newText);
