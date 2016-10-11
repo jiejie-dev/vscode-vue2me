@@ -66,10 +66,6 @@
         "compile": "tsc -watch -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
-    "dependencies": {
-		"css": "2.2.1",
-		"htmlparser2": "3.9.1"
-	},
     "devDependencies": {
         "typescript": "^2.0.3",
         "vscode": "^1.0.0",
