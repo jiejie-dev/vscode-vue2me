@@ -6,7 +6,7 @@
             "\t$1",
             "</template>"
         ],
-        "description": "Vue element"
+        "description": "template part in vue file"
     },
     "script": {
         "prefix": "script",
@@ -15,7 +15,7 @@
             "\t$1",
             "</script>"
         ],
-        "description": "Vue element"
+        "description": "script part in vue file"
     },
     "style": {
         "prefix": "style",
@@ -24,7 +24,7 @@
             "\t$1",
             "</style>"
         ],
-        "description": "Vue element"
+        "description": "style part in vue file"
     },
     "vuecom": {
         "prefix": "vuecom",
@@ -41,6 +41,6 @@
             "\t$3",
             "</style>"
         ],
-        "description": "Vue component"
+        "description": "All parts in a vue file"
     }
 }

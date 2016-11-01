@@ -18,20 +18,20 @@
         "body": [
             "class=\"${1:className}\""
         ],
-        "description": "Expects: any"
+        "description": "Expects: string"
     },
     "id": {
         "prefix": "id",
         "body": [
             "id=\"${1:name}\""
         ],
-        "description": "Expects: any"
+        "description": "Expects: string"
     },
     "data-": {
         "prefix": "data-",
         "body": [
             "data-$1=\"$2\""
         ],
-        "description": "Does not expect expression"
+        "description": "Expects: string"
     }
 }

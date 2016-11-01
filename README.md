@@ -1,11 +1,6 @@
 # vue2me README
 
-This is the README for your extension "vue2me". After writing up a brief description, we recommend including the following sections.
-
-## Important : manay codes come from other vscode extension or opensource project
-- [vscode-vue-snippets](https://github.com/hollowtree/vscode-vue-snippets)
-- [html-snippets](https://github.com/abusaidm/html-snippets)
-- [vscode-class-autocomplete-for-html](https://github.com/AESSoft/vscode-class-autocomplete-for-html)
+A Vue Syntax Highlight and Snippets extension for Visual Studio Code. 
 
 ## Features
 
@@ -16,10 +11,6 @@ For example if there is an image subfolder under your extension project workspac
 \!\[feature X\]\(images/feature-x.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
 
@@ -32,25 +23,23 @@ This extension contributes the following settings:
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
 
+## Thanks
+
+- [vscode-vue-snippets](https://github.com/hollowtree/vscode-vue-snippets)
+- [html-snippets](https://github.com/abusaidm/html-snippets)
+- [vscode-class-autocomplete-for-html](https://github.com/AESSoft/vscode-class-autocomplete-for-html)
+
+> Important: This project is just for myself to use in the earliest time. There are many files or codes that come from the other projects above. I got some trouble to contact these authors.
+
 ## Known Issues
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Added basic features.
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -61,10 +50,5 @@ Added features X, Y, and Z.
 * Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
 * Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
