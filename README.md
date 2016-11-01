@@ -18,3 +18,5 @@ Added basic features.
 
 -----------------------------------------------------------------------------------------------------------
 
+### Base on
+[vue-syntax-highlight (vue.tmLanguage)](https://github.com/vuejs/vue-syntax-highlight/blob/master/vue.tmLanguage)
